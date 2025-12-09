@@ -1,0 +1,12 @@
+export(obs_sum)
+export(species_case)
+export(densiometer)
+export(model_var)
+export(model_time)
+
+importFrom(dplyr, select, mutate, arrange, filter, group_by, summarize, desc, n, all_of)
+importFrom(ggplot2, ggplot, is.ggplot, aes, geom_point, geom_line, geom_smooth, labs, scale_color_manual, scale_y_continuous)
+importFrom(readr, read_csv)
+importFrom(stringr, str_split_1, str_to_lower, str_to_upper)
+importFrom(stats, glm)
+importFrom(utils, globalVariables)
