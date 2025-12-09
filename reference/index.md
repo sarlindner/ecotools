@@ -1,0 +1,14 @@
+# Package index
+
+## All functions
+
+- [`densiometer()`](https://sarlindner.github.io/ecotools/reference/densiometer.md)
+  : Calculates overstory density from densiometer readings
+- [`model_time()`](https://sarlindner.github.io/ecotools/reference/model_time.md)
+  : Models binary field data over time
+- [`model_var()`](https://sarlindner.github.io/ecotools/reference/model_var.md)
+  : Models binary field data with an environmental variable
+- [`obs_sum()`](https://sarlindner.github.io/ecotools/reference/obs_sum.md)
+  : Summary of presence/absence observations
+- [`species_case()`](https://sarlindner.github.io/ecotools/reference/species_case.md)
+  : Prints in species case!

@@ -1,0 +1,8 @@
+pandoc: 3.6.3
+pkgdown: 2.2.0
+pkgdown_sha: ~
+articles: {}
+last_built: 2025-12-09T21:13Z
+urls:
+  reference: https://sarlindner.github.io/ecotools/reference
+  article: https://sarlindner.github.io/ecotools/articles
