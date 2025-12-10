@@ -4,7 +4,7 @@ Description: A collection of functions dedicated to streamlining
     the process of managing, analyzing, and visualizing ecological data, 
     with a focus on binary data - presence or absence data.
 Version: 1.0.2
-Authors@R: person("Sar", "Lindner", email = "sar_lindner@hms.harvard.edu", role = c("aut", "cre", "cph"))
+Authors@R: person("Sar", "Lindner", email = "sarlindner@outlook.com", role = c("aut", "cre", "cph"))
 License: MIT + file LICENSE
 Depends: R (>= 3.5)
 Imports: dplyr, ggplot2, readr, stringr
