@@ -18,8 +18,8 @@ model_var(data, variable, binary_col, var_label = variable, binary_label = "pres
 \examples{
 # Example binary field data
 df <- data.frame(
-    temp = c(40, 60, 42, 45, 52),
-    binary_col = c(0, 1, 0, 0, 1)
+  temp = c(40, 42, 44, 46, 48, 50, 52, 54, 56, 58),
+  binary_col = c(0, 0, 0, 1, 0, 1, 1, 1, 1, 1)
 )
 
 # Creates plot

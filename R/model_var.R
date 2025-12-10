@@ -7,7 +7,8 @@ model_var <- function(data,
   ggplot(data, aes(x = .data[[variable]], y = .data[[binary_col]])) +
     geom_point() +
     geom_smooth(method = glm,
-                method.args = list(family = "binomial"),
+                formula = y ~ x,
+                method.args = list(family = binomial(link = "logit")),
                 se = FALSE,
                 na.rm = TRUE,
                 color = "#0C7BDC",

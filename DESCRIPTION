@@ -3,7 +3,7 @@ Title: Tools for the Field Ecologist
 Description: A collection of functions dedicated to streamlining 
     the process of managing, analyzing, and visualizing ecological data, 
     with a focus on binary data - presence or absence data.
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: person("Sar", "Lindner", email = "sar_lindner@hms.harvard.edu", role = c("aut", "cre", "cph"))
 License: MIT + file LICENSE
 Depends: R (>= 3.5)
@@ -11,8 +11,11 @@ Imports: dplyr, ggplot2, readr, stringr
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
+URL: https://github.com/sarlindner/ecotools, https://sarlindner.github.io/ecotools/
+BugReports: https://github.com/sarlindner/ecotools/issues
 Video: https://youtu.be/cQUYaAykUBw
 NeedsCompilation: no
 Packaged: 2025-12-08 22:24:56 UTC; sarlindner
 Author: Sar Lindner [aut, cre, cph]
 Maintainer: Sar Lindner <sarlindner@outlook.com>
+RoxygenNote: 7.3.3
